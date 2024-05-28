@@ -26,7 +26,7 @@ function hitDislikes1() {
 btnDislike1.addEventListener("click",hitDislikes1)
 
 function hitDislikes2() {
-  let totalDislikes2 = parseInt(countDisikes2.value) + 1
-  countDislikes2.textContent = totalDlisikes2.toString()
+  let totalDislikes2 = parseInt(countDislikes2.value) + 1
+  countDislikes2.textContent = totalDislikes2.toString()
 }
 btnDislike2.addEventListener("click",hitDislikes2)
