@@ -10,6 +10,13 @@ const btnAddfriend1 = document.getElementById("btnAddfriend1")
 const btnAddfriend2 = document.getElementById("btnAddfriend2")
 const countAddfriends1 = document.getElementById("countAddfriends1")
 const countAddfriends2 = document.getElementById("countAddfriends2")
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
+function submitComment(){
+  commentbox.textContent += comment.value.toString() + "\n"
+}
+submit.addEventListener("click", submitComment)
 
 function hitLikes1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
